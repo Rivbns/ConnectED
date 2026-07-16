@@ -14,7 +14,7 @@
       <header class="header">
         <div class="container header-inner">
           <a class="brand" href="index.html">
-            <span class="brand-mark">♥</span> ConnectEd
+            <span class="brand-mark">♥</span> ConnectEd NE
           </a>
           <nav class="nav" id="mainNav">
             ${nav.map(n => `<a href="${n.href}" class="${n.href === path ? "active" : ""}">${n.label}</a>`).join("")}
@@ -28,7 +28,7 @@
       <footer class="footer">
         <div class="container footer-grid">
           <div>
-            <div class="brand"><span class="brand-mark">♥</span> ConnectEd</div>
+            <div class="brand"><span class="brand-mark">♥</span> ConnectEd NE</div>
             <p class="text-muted mt-4" style="max-width:440px;font-size:14px;">
               Tu bienestar emocional también es parte de tu educación.
               Acompañamos a escolares, familias y equipos directivos con un espacio seguro,
@@ -51,7 +51,7 @@
         </div>
         <div class="footer-note">
           <div class="container">
-            <span>© ${new Date().getFullYear()} ConnectEd. Hecho con cuidado.</span>
+            <span>© ${new Date().getFullYear()} ConnectEd NE. Hecho con cuidado.</span>
             <span>Confidencialidad garantizada · Equipo profesional certificado</span>
           </div>
         </div>
@@ -65,7 +65,7 @@
       <div class="chat-panel" id="chatPanel">
         <div class="chat-header">Coni · Asistente virtual</div>
         <div class="chat-body" id="chatBody">
-          <div class="chat-msg bot">¡Hola! Soy Coni. Puedo ayudarte a navegar la página o responder dudas sobre ConnectEd.</div>
+          <div class="chat-msg bot">¡Hola! Soy Coni. Puedo ayudarte a navegar la página o responder dudas sobre ConnectEd NE.</div>
         </div>
         <form class="chat-input" onsubmit="event.preventDefault();sendChat();">
           <input id="chatInput" placeholder="Escribe tu mensaje..." />
